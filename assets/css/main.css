@@ -866,8 +866,7 @@ section {
   font-weight: 500;
   font-size: 15px;
   letter-spacing: 1px;
-  display: flex;
-  padding: 12px 30px;
+  padding: 10px 30px;
   border-radius: 50px;
   transition: 0.5s;
   color: #fff;
@@ -901,6 +900,9 @@ section {
 
 .hero-service .btn-watch-video:hover i {
   color: #82cbed;
+}
+.hero-service .action{
+  text-align: center;
 }
 .description{
   background-color: white;
@@ -1064,4 +1066,43 @@ section {
   transition: 0.5s ease-in-out;
 
 }
+.id-card{
+  text-align: center;
+  position: relative;
+  transition: 0.5s;
 
+}
+.id-card .id1{
+  height: 177px;
+  width: 177px;
+  border-radius: 100px;
+  transition: 0.5s;
+}
+
+.id-card h2{
+  color: rgb(29, 31, 114);
+  font-weight: 700;
+  text-align: center;
+}
+
+.id-card p{
+  color: rgba(0, 0, 0, 0.86);
+  padding-left: 20px;
+  font-size: 15px;
+  font-family: var(--font-default);
+  margin: 10px 0;
+  font-weight: 500;
+  padding-bottom: 50px;
+}
+.id-card h4{
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: var(--color-secondary);
+}
+
+.id-card h5{
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  color: var(--color-secondary);
+}
