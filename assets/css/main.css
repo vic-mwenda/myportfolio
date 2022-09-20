@@ -1106,3 +1106,46 @@ section {
   font-family: "Montserrat", sans-serif;
   color: var(--color-secondary);
 }
+.portfolio{
+
+}
+.portfolio .card{
+  border-radius: 15px;
+}
+
+.portfolio .card-body{
+  padding:30px;
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+  margin-bottom: 30px;
+  cursor: pointer;
+  overflow: hidden;
+  color: white;
+}
+.portfolio h5{
+  font-size: 28px;
+  font-weight: 700;
+}
+.portfolio .card h5:hover{
+  border-bottom: white 2px solid;
+  transition: 5ms;
+}
+
+.portfolio .card:hover{
+  box-shadow: 0 30px 30px rgba(27, 47, 69, 0.64), 0 20px 30px rgba(0, 0, 0, 0.33);
+}
+.portfolio .col-1{
+  display: block;
+  align-items: center;
+  margin-left: 5rem;
+}
+.bg-card-1{
+  background-color: rgba(17, 37, 128, 0.8);
+}
+.bg-card-2{
+  background-color: rgba(19, 30, 77, 0.8);
+}
+.bg-card-3{
+  background-color: var(--color-secondary);
+}
